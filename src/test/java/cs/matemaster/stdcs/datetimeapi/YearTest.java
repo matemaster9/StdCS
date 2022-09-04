@@ -1,4 +1,4 @@
-package cs.matemaster.stdcs;
+package cs.matemaster.stdcs.datetimeapi;
 
 import org.junit.Test;
 

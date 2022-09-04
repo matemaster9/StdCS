@@ -1,5 +1,6 @@
-package cs.matemaster.stdcs;
+package cs.matemaster.stdcs.datetimeapi;
 
+import cs.matemaster.stdcs.StdCSLogger;
 import org.junit.Test;
 
 import java.time.*;
@@ -41,6 +42,9 @@ public class BizDateTimeTestCase {
         StdCSLogger.debug(date1.until(date2));
     }
 
+    /**
+     * 每月8号发工资，遇到周末提前
+     */
     @Test
     public void case3() {
         StdCSLogger.debug(LocalDate.now().with(new PayrollAdjuster()));
@@ -69,5 +73,27 @@ public class BizDateTimeTestCase {
             return with;
         }
     }
+
+    /**
+     * 打印2018年所有周日的日期
+     */
+    @Test
+    public void case4() {
+        int days = Year.of(2018).isLeap() ? 366 : 365;
+        for (int i = 0; i < days; i++) {
+            LocalDate localDate = LocalDate.ofYearDay(2018, i + 1);
+            if (localDate.getDayOfWeek() == DayOfWeek.SUNDAY) {
+                StdCSLogger.debug(localDate);
+            }
+        }
+
+        LocalDate firstDay2018 = LocalDate.ofYearDay(2018, 1);
+        while (true) {
+            firstDay2018 = firstDay2018.with(TemporalAdjusters.next(DayOfWeek.SUNDAY));
+            if (firstDay2018.getYear() > 2018) break;
+            StdCSLogger.debug(firstDay2018);
+        }
+    }
+
 
 }

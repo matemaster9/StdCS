@@ -1,5 +1,6 @@
-package cs.matemaster.stdcs;
+package cs.matemaster.stdcs.datetimeapi;
 
+import cs.matemaster.stdcs.StdCSLogger;
 import org.junit.Test;
 
 import java.time.LocalDate;
