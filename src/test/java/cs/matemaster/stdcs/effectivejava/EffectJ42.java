@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 /**
  * @author matemaster
  */
-public class J42 {
+public class EffectJ42 {
 
     @Test
     public void lambda() {
