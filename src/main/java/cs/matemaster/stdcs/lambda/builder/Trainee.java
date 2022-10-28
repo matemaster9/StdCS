@@ -1,5 +1,6 @@
 package cs.matemaster.stdcs.lambda.builder;
 
+import lombok.Getter;
 import lombok.ToString;
 
 import java.time.LocalDate;
@@ -9,6 +10,7 @@ import java.util.function.Function;
 /**
  * @author matemaster
  */
+@Getter
 @ToString
 public class Trainee {
 
