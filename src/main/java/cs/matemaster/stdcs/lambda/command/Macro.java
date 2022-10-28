@@ -1,4 +1,6 @@
-package cs.matemaster.stdcs.lambda;
+package cs.matemaster.stdcs.lambda.command;
+
+import cs.matemaster.stdcs.lambda.command.Action;
 
 import java.util.ArrayList;
 import java.util.List;

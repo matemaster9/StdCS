@@ -1,10 +1,10 @@
 package cs.matemaster.stdcs.stream;
 
-import cs.matemaster.stdcs.lambda.Close;
-import cs.matemaster.stdcs.lambda.EditRequestImpl;
-import cs.matemaster.stdcs.lambda.Macro;
-import cs.matemaster.stdcs.lambda.Open;
-import cs.matemaster.stdcs.lambda.Save;
+import cs.matemaster.stdcs.lambda.command.Close;
+import cs.matemaster.stdcs.lambda.command.EditRequestImpl;
+import cs.matemaster.stdcs.lambda.command.Macro;
+import cs.matemaster.stdcs.lambda.command.Open;
+import cs.matemaster.stdcs.lambda.command.Save;
 import org.junit.Test;
 
 /**

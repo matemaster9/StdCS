@@ -1,6 +1,6 @@
 package cs.matemaster.stdcs.stream;
 
-import cs.matemaster.stdcs.lambda.Trainee;
+import cs.matemaster.stdcs.lambda.builder.Trainee;
 import org.junit.Test;
 
 /**

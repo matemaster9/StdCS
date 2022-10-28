@@ -1,5 +1,8 @@
-package cs.matemaster.stdcs.lambda;
+package cs.matemaster.stdcs.lambda.command;
 
+
+import cs.matemaster.stdcs.lambda.command.Action;
+import cs.matemaster.stdcs.lambda.command.IEditor;
 
 /**
  * @author matemaster

@@ -1,4 +1,4 @@
-package cs.matemaster.stdcs.lambda;
+package cs.matemaster.stdcs.lambda.command;
 
 /**
  * @author matemaster

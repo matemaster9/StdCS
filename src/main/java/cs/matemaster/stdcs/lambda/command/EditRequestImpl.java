@@ -1,9 +1,9 @@
-package cs.matemaster.stdcs.lambda;
+package cs.matemaster.stdcs.lambda.command;
 
 /**
  * @author matemaster
  */
-public class EditRequestImpl implements IEditor{
+public class EditRequestImpl implements IEditor {
     @Override
     public void open() {
         System.out.println("open");
