@@ -29,5 +29,11 @@ public class BuilderModeTest {
             }
         });
         System.out.println(orgAnonymous);
+
+        OrgDto build = OrgDto.builder()
+                .id("M100")
+                .name("Apache")
+                .build();
+        System.out.println(build);
     }
 }
