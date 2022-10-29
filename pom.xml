@@ -6,7 +6,11 @@
 
     <groupId>cs.matemaster</groupId>
     <artifactId>StdCS</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>ibee-algs4</module>
+    </modules>
 
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
