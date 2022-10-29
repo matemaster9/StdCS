@@ -18,7 +18,7 @@ public class OrgDto {
 
     private String id;
 
-    public static OrgDto of(Function<OrgDtoBuilder, OrgDto> func) {
+    public static OrgDto of(Function<OrgDto.OrgDtoBuilder, OrgDto> func) {
         return func.apply(builder());
     }
 }
